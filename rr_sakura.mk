@@ -23,11 +23,11 @@ $(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/sakura.mk)
 $(call inherit-product, device/xiaomi/sakura/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := sakura
-PRODUCT_NAME := lineage_sakura
+PRODUCT_NAME := rr_sakura
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 6 Pro
 PRODUCT_MANUFACTURER := Xiaomi

@@ -3,12 +3,12 @@
     "remote": "github",
     "repository":  "Revanth/vendor_xiaomi",
     "target_path": "vendor/xiaomi",
-    "branch": "pie"
+    "branch": "lineage-16.0"
   },
   {
     "remote": "github",
     "repository":  "Revanth/kernel_xiaomi_msm8953",
     "target_path": "kernel/xiaomi/msm8953",
-    "branch": "pie"
+    "branch": "lineage-16.0"
   }
 ]
